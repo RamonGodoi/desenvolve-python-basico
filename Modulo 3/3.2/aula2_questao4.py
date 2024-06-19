@@ -1,0 +1,5 @@
+classe=input("Escolha entre as classe Guerreiro, Mago ou Arqueiro: ")
+força=int(input("Digite os pontos de força (de 1 a 20): "))
+magia=int(input("Digite os pontos de magia (de 1 a 20): "))
+ficha=(classe=="guerreiro" and força>=15 and magia<=10) or (classe=="mago" and força<=10 and magia>=15) or (classe=="arqueiro" and força>=5 and força<=15 and magia>=5 and magia<=15)
+print(ficha)
