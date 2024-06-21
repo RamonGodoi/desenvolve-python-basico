@@ -1,0 +1,222 @@
+html{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: left;
+}
+h1, h2, h3{
+    font-family: 'Times New Roman';
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #083fb66b;
+    text-align: center;
+    padding: 40px 0;
+    
+}
+
+#nome {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+    width: 60%;
+    margin-right: 35%;
+}
+
+#foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 60px;
+    left: 65%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#email, #cidade {
+    margin-bottom: 10px;
+    width: 60%;
+    margin-right: 35%;
+}
+#apresentacao{
+    text-align: left;
+    margin-bottom: 10px;
+    width: 55%;
+    margin-right: 30%;
+    margin-left: 10%;
+}
+
+#educacao{
+    text-align: left;
+    margin-bottom: 10px;
+    width: 55%;
+    margin-right: 30%;
+    margin-left: 10%;
+    position: absolute;
+    top: 350px;
+}
+
+#certificados{
+    text-align: left;
+    margin-bottom: 10px;
+    width: 55%;
+    margin-right: 30%;
+    margin-left: 10%;
+    position: absolute;
+    top: 500px;
+}
+
+#experiencia{
+    text-align: right;
+    border-radius: 25%;
+    margin-bottom: 10px;
+    left: 65%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #083fb66b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#data {
+    font-family: 'Lucida Sans';
+    font-size: 2em:
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 20px 0;
+    }
+    #foto {
+        left: 50%;
+        position: static;
+        width: 120px;
+        height: 120px;
+    }
+    nav {
+        display: block;
+    }
+    nav ul {
+        text-align: center;
+    }
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+    #apresentacao{
+        text-align: left;
+        margin-bottom: 10px;
+        width: 55%;
+        margin-right: 30%;
+        margin-left: 10%;
+    }
+    
+    #educacao{
+        text-align: left;
+        margin-bottom: 10px;
+        width: 55%;
+        margin-right: 30%;
+        margin-left: 10%;
+        position: static;
+        top: 350px;
+    }
+    
+    #certificados{
+        text-align: left;
+        margin-bottom: 10px;
+        width: 55%;
+        margin-right: 30%;
+        margin-left: 10%;
+        position: static;
+        top: 500px;
+    }
+    
+    #experiencia{
+        text-align: left;
+        margin-bottom: 10px;
+        width: 55%;
+        margin-right: 30%;
+        margin-left: 10%;
+        position: static;
+        top: 500px;
+    }
+}
