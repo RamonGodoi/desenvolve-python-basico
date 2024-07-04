@@ -1,0 +1,4 @@
+ID,Nome,Senha,Tipo
+4,funcionario,1234,funcionario
+2,cliente,4321,cliente
+3,gerente,6789,admin
